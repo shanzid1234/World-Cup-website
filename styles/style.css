@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    background: #161616;
+    width: 1020px;
+    height: 450px;
+    color: white;
+    margin: 50px 140px;
+    border-radius: 30px;
+}
+.footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    text-align: center;
+    width: 100%;
+    background: #161616;
+    color: white;
+
+}
+article{
+    height: 431px;
+    width: auto;
+    padding: 80px;
+}
+article h1{
+    font-size: 50px;
+    white-space: wrap;
+    padding-bottom: 20px;
+}
+article .header-paragraph p{
+    font-size: 15px;
+    font-family:'Poppins';
+    padding-bottom: 20px;
+    color: rgb(221, 212, 212);
+}
+article button{
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+header .images img{
+   width: 400px;
+   height: 400px;
+   margin-bottom: 0;
+   margin-top: 50px;
+   padding-left: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.btn{
+    color: white;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    background: #161616;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: auto;
+    height: 200px;
+}
+/* .paragraph{
+   color: black;
+} */
+.match-btn{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+}
+.match-btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s;
+}
+.match-btn-red{
+    background: #DD0000;
+    color: white;
+}
+.match-time{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.match-shediul{
+    width: 250px;
+    height: auto;
+    border: 0.02px solid gray;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.match-shediul:hover{
+    transform: scale(1.02);
+    transition: 0.4s;
+    background-color: rgb(3, 3, 51);
+    color: white;
+}
+.match-shediul:hover .shediul-button{
+    background-color: rgb(7, 61, 105);
+    color: whitesmoke;
+}
+.image{
+    width: 249px;
+    border-radius: 10px 10px 0px 0px;
+}
+.paragraph{
+    font-weight: bold;
+    padding: 10px;
+}
+.shediul-button{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    border-radius: 3px;
+    border: 0.02px solid gray;
+    font-size: 15px;
+}
+.shediul-button:hover{
+    transform: scale(1.02);
+    font-size: 15px;
+    transition: all 0.4s;
+    color: white;
+    border: 1px solid rgb(190, 180, 180);
+}
+.clock{
+    padding: 10px;
+}
+.time{
+    padding: 10px;
+}
+.others{
+    display: flex;
+    flex-direction: row;
+}
+.message{
+    display: flex;
+    padding-left: 50px;
+}
+.goal{
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid white;
+}
+.links{
+    padding-top: 50px;
+    color: white;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.4s;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.div{
+    padding-bottom: 30px;
+}
+.media-links{
+    margin: 50px;
+    font-size: 25px;
+}
+.btn-link:hover{
+   transform: scale(1.2);
+   transition: transform 0.2s;
+}
+.webpage2{
+    color: black;
+}
+.webpage2:hover{
+    text-decoration: none;
+}
+@media screen and (min-width:688px) and (max-width:992px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+        font-family: 'Roboto', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        display: flex;
+        background: #161616;
+        width: 650px;
+        height: 350px;
+        color: white;
+        border-radius: 30px;
+        padding: 0px;
+        margin: 10px;
+        margin-right: 10px;
+        margin-bottom: 50px;
+    }
+    .footer{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        text-align: center;
+        width: 100%;
+        background: #161616;
+        color: white;
+    
+    }
+    article{
+        height: auto;
+        width: auto;
+        padding: 30px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    article h1{
+        font-size: 30px;
+        white-space: wrap;
+        padding-bottom: 20px;
+    }
+    article .header-paragraph p{
+        font-size: 15px;
+        font-family:'Poppins';
+        padding-bottom: 20px;
+        color: rgb(221, 212, 212);
+    }
+    article button{
+        border: none;
+        background-color: red;
+        color: white;
+        padding: 10px 15px;
+        margin-top: 10px;
+        border-radius: 3px;
+    }
+    span{
+        display: none;
+    }
+    header .images img{
+       width: 300px;
+       height: 300px;
+       margin-bottom: 0;
+       margin-top: 50px;
+       padding-left: 20px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+    .button{
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px;
+        background-color: transparent;
+    }
+    .match-btn{
+        margin: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 180px;
+        height: 50px;
+    }
+    .match-btn:hover{
+        transform: scale(1.1);
+        transition: transform 0.4s;
+    }
+    .match-btn-red{
+        background: #DD0000;
+        color: white;
+    }
+    .match-time{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .match-shediul{
+        width: 290px;
+        height: auto;
+        border: 0.02px solid gray;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .match-shediul:hover{
+        transform: scale(1.02);
+        transition: 0.4s;
+        background-color: rgb(3, 3, 51);
+    }
+    .match-shediul:hover .shediul-button{
+        background-color: rgb(7, 61, 105);
+        color: whitesmoke;
+    }
+    .image{
+        width: 289px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .paragraph{
+        font-weight: bold;
+        padding: 10px;
+    }
+    .shediul-button{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 10px;
+        border-radius: 3px;
+        border: 0.02px solid gray;
+        font-size: 15px;
+    }
+    .shediul-button:hover{
+        transform: scale(1.02);
+        font-size: 15px;
+        transition: all 0.4s;
+        color: white;
+        border: 1px solid rgb(190, 180, 180);
+    }
+    .clock{
+        padding: 10px;
+    }
+    .time{
+        padding: 10px;
+    }
+    .others{
+        display: flex;
+        flex-direction: row;
+    }
+    .message{
+        display: flex;
+        padding-left: 50px;
+    }
+    .goal{
+        padding-bottom: 50px;
+        border-bottom: 0.5px solid white;
+    }
+    .links{
+        padding-top: 50px;
+    }
+    a{
+        padding: 10px;
+        text-decoration: none;
+        transition: all 0.4s;
+        color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .div{
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width:667px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+        font-family: 'Roboto', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #161616;
+        width: auto;
+        height: 600px;
+        color: white;
+        margin: 50px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .footer{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+        text-align: center;
+        width: 100%;
+        background: #161616;
+        color: white;
+    
+    }
+    article{
+        height: 431px;
+        width: auto;
+        padding-bottom: 16px;
+        text-align: center;
+        padding-top: 70px;
+    }
+    article h1{
+        font-size: 30px;
+        white-space: wrap;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    span{
+        display: none;
+    }
+    article .header-paragraph p{
+        font-size: 15px;
+        font-family:'Poppins';
+        padding-bottom: 20px;
+        color: rgb(221, 212, 212);
+    }
+    article button{
+        border: none;
+        background-color: red;
+        color: white;
+        padding: 10px 15px;
+        margin-top: 10px;
+        border-radius: 3px;
+    }
+    header .images img{
+       width: 250px;
+       height: 250px;
+       margin-bottom: 0;
+       margin-top: 20px;
+       padding-left: 20px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+        transition: 0.4s;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border-radius: 5px;
+        width: auto;
+        height: 200px;
+    }
+    .match-btn{
+        margin: 10px;
+        padding: 10px;
+        font-size: 1em;
+        width: 400px;
+        border: none;
+        border-radius: 5px;
+    }
+    .match-btn:hover{
+        transform: scale(1.1);
+        transition: transform 0.4s;
+    }
+    .match-btn-red{
+        background: #DD0000;
+        color: white;
+    }
+    .match-time{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .match-shediul{
+        width: 350px;
+        height: auto;
+        border: 0.02px solid gray;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    .match-shediul:hover{
+        transform: scale(1.02);
+        transition: 0.4s;
+        background-color: rgb(3, 3, 51);
+        color: white;
+    }
+    .match-shediul:hover .shediul-button{
+        background-color: rgb(7, 61, 105);
+        color: whitesmoke;
+    }
+    .image{
+        width: 349px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .paragraph{
+        font-weight: bold;
+        padding: 10px;
+    }
+    .shediul-button{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 10px;
+        border-radius: 3px;
+        border: 0.02px solid gray;
+        font-size: 15px;
+    }
+    .shediul-button:hover{
+        transform: scale(1.02);
+        font-size: 15px;
+        transition: all 0.4s;
+        color: white;
+        border: 1px solid rgb(190, 180, 180);
+    }
+    .clock{
+        padding: 10px;
+    }
+    .time{
+        padding: 10px;
+    }
+    .others{
+        display: flex;
+        flex-direction: row;
+    }
+    .message{
+        display: flex;
+        padding-left: 50px;
+    }
+    .goal{
+        padding-bottom: 50px;
+        border-bottom: 0.5px solid white;
+    }
+    .links{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        padding: 10px;
+        text-decoration: none;
+        transition: all 0.4s;
+        color: white;
+    }
+    .btn{
+        color: black;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .div{
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .another-div{
+        display: none;
+    }
+    .media-links{
+        margin: 50px;
+        font-size: 25px;
+    }
+    .btn-link:hover{
+       transform: scale(1.2);
+       transition: transform 0.2s;
+    }
+}

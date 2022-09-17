@@ -1,0 +1,65 @@
+.image{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin: 30px auto;
+}
+.argentina{
+    width:90px;
+}
+.brazil{
+    width: 80px;
+}
+.match-shediul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .match-shediul:hover{
+    background-color: transp;
+    color: black;
+} */
+.match-time{
+    text-align: center;
+}
+.p{
+    padding-top: 20px;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:667px){
+    .image{
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin: 30px auto;
+    }
+    .argentina{
+        width:90px;
+    }
+    .brazil{
+        width: 80px;
+    }
+    .match-shediul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto;
+    }
+    .match-shediul:hover{
+        background-color: transparent;
+        color: black;
+    }
+    .match-time{
+        text-align: center;
+    }
+    .p{
+        padding-top: 20px;
+        color: gray;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+}
